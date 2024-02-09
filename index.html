@@ -14,9 +14,7 @@
         </div>
         <nav class="menu-items">
             <ul class="menu">
-                <li>Inicio</li>
-                <li>Secciones</li>
-                <li>Contacto</li>
+                <li class="active"><a href="./components/contact/index.html">Contacto</a></li>
             </ul>
             <div class="search">
                 <input type="text" placeholder="Buscar...">
@@ -27,16 +25,21 @@
 
     <main>
         <article class="main-news">
-            <img src="./public/imagen_principal.jpg" alt="Descripción de la imagen principal">
-            <h1>¡Descubrimiento revolucionario en el campo de la medicina!</h1>
-            <p>Investigadores de renombre internacional han anunciado el descubrimiento de un tratamiento revolucionario que promete curar enfermedades crónicas en menos de una semana. Este avance médico podría transformar la industria farmacéutica y cambiar la vida de millones de personas en todo el mundo.</p>
+            <a href="./components/principalNews/index.html">
+                <img src="./public/imagen_principal.jpg" alt="Descripción de la imagen principal">
+                <h1>¡Descubrimiento revolucionario en el campo de la medicina!</h1>
+                <p>Investigadores de renombre internacional han anunciado el descubrimiento de un tratamiento revolucionario que promete curar enfermedades crónicas en menos de una semana. Este avance médico podría transformar la industria farmacéutica y cambiar la vida de millones de personas en todo el mundo.</p>
+            </a>
         </article>
 
+        
         <section class="secondary-news">
             <article>
-                <img src="./public/imagen_segundaria.jpg" alt="Descripción de la imagen secundaria">
-                <h3>Descubierto nuevo planeta habitable</h3>
-                <p>Científicos han anunciado el descubrimiento de un nuevo planeta potencialmente habitable.</p>
+                <a href="./components/secondaryNews/index.html">
+                    <img src="./public/imagen_segundaria.jpg" alt="Descripción de la imagen secundaria">
+                    <h3>Descubierto nuevo planeta habitable</h3>
+                    <p>Científicos han anunciado el descubrimiento de un nuevo planeta potencialmente habitable.</p>
+                </a>
             </article>
             <article>
                 <img src="./public/imagen_segundaria.jpg" alt="Descripción de la imagen secundaria">
@@ -45,7 +48,15 @@
             </article>
         </section>
     </main>
-
+    <section class="related-news">
+        <h2>Noticias Relacionadas</h2>
+        <ul class="related-news-list">
+            <li><a href="#">Nuevo avance en la investigación contra el cáncer</a></li>
+            <li><a href="#">Descubren especie de dinosaurio hasta ahora desconocida</a></li>
+            <li><a href="#">Lanzamiento del nuevo satélite de observación meteorológica</a></li>
+        </ul>
+    </section>
+    
     <footer>
         <p>&copy; 2024 El Noticion</p>
     </footer>
